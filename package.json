@@ -4,9 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start:prod": "ng serve dist/angular-rtl-switch",
     "build": "ng build",
     "build:localize": "ng build --localize",
     "build:github-pages": "ng build --output-path docs --localize --base-href /angular-rtl/\n",
+    "build:localize": "ng build --localize --output-path dist",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "int:extract": "ng extract-i18n --output-path src/locale"

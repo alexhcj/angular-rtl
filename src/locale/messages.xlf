@@ -47,6 +47,15 @@
         <note priority="1" from="description">Describes what user can achive if he learned one of course</note>
         <note priority="1" from="meaning">Categories description</note>
       </trans-unit>
+      <trans-unit id="4607124485354687571" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{topic.quantity}}"/> courses</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/topics/topics.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <note priority="1" from="description">Quantity of sertain courses category</note>
+        <note priority="1" from="meaning">Coursers quantity</note>
+      </trans-unit>
       <trans-unit id="4802342939513930528" datatype="html">
         <source>Art History</source>
         <context-group purpose="location">
@@ -64,6 +73,13 @@
         </context-group>
         <note priority="1" from="description">UI &amp; UX category course</note>
         <note priority="1" from="meaning">Courses category</note>
+      </trans-unit>
+      <trans-unit id="392942015236586892" datatype="html">
+        <source>Angular logo</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/common/header/header.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="4802850198241204153" datatype="html">
         <source>All courses</source>

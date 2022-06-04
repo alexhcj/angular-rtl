@@ -1,6 +1,6 @@
 <nav class="nav">
   <a href="#" class="logo">
-    <img class="logo_svg" src="./assets/logo.svg" alt="">
+    <img class="logo_svg" src="./assets/logo.svg" i18n-title title="Angular logo" alt="Angular logo">
   </a>
   <div class="divider"></div>
   <div class="language">
@@ -13,11 +13,11 @@
         <path d="M11.25 6.75C11.25 6.75 11.25 9.25 9.25 11.25C7.25 13.25 4.75 13.25 4.75 13.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
         <path d="M12.25 13.25C12.25 13.25 9.75 13.25 7.75 11.25C7.34551 10.8455 6.75 9.75 6.75 9.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
       </svg>
-      <span>EN</span>
+      <span class="language_shortcut">{{currentLanguage}}</span>
     </button>
     <ul class="locale" *ngIf="showLocaleList">
       <li class="locale_item" *ngFor="let locale of localeList">
-        <a class="locale_link" href="/{{locale.code}}">
+        <a class="locale_link" href="/{{locale.code}}/">
           {{locale.label}}
           <span>({{locale.shortcut}})</span>
         </a>

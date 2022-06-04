@@ -3,6 +3,7 @@
 .nav {
   display: flex;
   align-items: center;
+  margin-top: 30px;
   padding: 10px;
   border-radius: 5px 5px 0 0;
   background-color: $color-primary;
@@ -28,6 +29,10 @@
   height: 44px;
   border-radius: 5px;
 
+  &:hover {
+    background-color: $color-secondary2;
+  }
+
   button {
     display: flex;
     align-items: center;
@@ -38,19 +43,20 @@
     cursor: pointer;
   }
 
-  &:hover {
-    background-color: $color-secondary2;
+  &_shortcut {
+    text-transform: uppercase;
   }
 }
 .locale {
   position: absolute;
-  top: 25px;
+  top: 47px;
   left: 0;
   display: flex;
   flex-direction: column;
   padding: 6px;
   background-color: $color-white;
   border-radius: 5px;
+  z-index: $z-index-100;
 
   &_item {
     list-style: none;

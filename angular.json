@@ -19,7 +19,10 @@
       "i18n": {
         "sourceLocale": "en-US",
         "locales": {
-          "he": "src/locale/messages.he.xlf"
+          "he": {
+            "translation": "src/locale/messages.he.xlf",
+            "baseHref": "he"
+          }
         }
       },
       "architect": {

@@ -2,7 +2,95 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en-US" target-language="he" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="5749270743673576331" datatype="html">
+      <trans-unit id="7713860644916737983" datatype="html">
+        <source>Getting Started with Moodle</source>
+        <target>תחילת העבודה עם Moodle</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/hero/hero.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">Primary slogan message of company</note>
+        <note priority="1" from="meaning">Hero title</note>
+      </trans-unit>
+      <trans-unit id="5843588263354228219" datatype="html">
+        <source>From its medieval origins to the digital era, learn everything there is to know about the ubiquitous lorem ipsum passage.</source>
+        <target>ממקורות ימי הביניים ועד לעידן הדיגיטלי, למד כל מה שצריך לדעת על הקטע הלורם איפסום שנמצא בכל מקום.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/hero/hero.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">Primary short meta description of company</note>
+        <note priority="1" from="meaning">Hero text</note>
+      </trans-unit>
+      <trans-unit id="8027139425833124653" datatype="html">
+        <source>Sign up</source>
+        <target>הירשם</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/hero/hero.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <note priority="1" from="description">Redirect user to registration page</note>
+        <note priority="1" from="meaning">Sign up button</note>
+      </trans-unit>
+      <trans-unit id="8093989639772668109" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Featured<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> topics by category</source>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>מומלצים<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> נושאים לפי קטגוריות</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/topics/topics.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">List of courses which user can learn</note>
+        <note priority="1" from="meaning">Featured categories title</note>
+      </trans-unit>
+      <trans-unit id="1297598504076835535" datatype="html">
+        <source>It prepares them to thrive in today’s world — and to shape tomorrow’s. Apple is constantly creating resources to help educators do just that. Not only powerful products, but also tools, inspiration, and curricula to create magical learning experiences and make every moment of screen time worth it.</source>
+        <target>זה מכין אותם לשגשג בעולם של היום - ולעצב את העולם של מחר. אפל מייצרת כל הזמן משאבים כדי לעזור למחנכים לעשות בדיוק את זה. לא רק מוצרים רבי עוצמה, אלא גם כלים, השראה ותכניות לימודים ליצירת חוויות למידה קסומות ולהפוך כל רגע של זמן מסך לשווה את זה.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/topics/topics.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">Describes what user can achive if he learned one of course</note>
+        <note priority="1" from="meaning">Categories description</note>
+      </trans-unit>
+      <trans-unit id="4607124485354687571" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{topic.quantity}}"/> courses</source>
+        <target><x id="INTERPOLATION" equiv-text="{{topic.quantity}}"/> קורסים</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/topics/topics.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <note priority="1" from="description">Quantity of sertain courses category</note>
+        <note priority="1" from="meaning">Coursers quantity</note>
+      </trans-unit>
+      <trans-unit id="4802342939513930528" datatype="html">
+        <source>Art History</source>
+        <target>היסטוריה של האמנות</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/topics/topics.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description">Art category course</note>
+        <note priority="1" from="meaning">Courses category</note>
+      </trans-unit>
+      <trans-unit id="8291506914238155784" datatype="html">
+        <source>UI &amp; UX</source>
+        <target>UI &amp; UX</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/topics/topics.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <note priority="1" from="description">UI &amp; UX category course</note>
+        <note priority="1" from="meaning">Courses category</note>
+      </trans-unit>
+      <trans-unit id="392942015236586892" datatype="html">
+        <source>Angular logo</source>
+        <target>לוגו זוויתי</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/common/header/header.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4802850198241204153" datatype="html">
         <source>All courses</source>
         <target>כל הקורסים</target>
         <context-group purpose="location">
@@ -12,7 +100,7 @@
         <note priority="1" from="description">Header navigation link</note>
         <note priority="1" from="meaning">All courses link</note>
       </trans-unit>
-      <trans-unit id="2161883949958595597" datatype="html">
+      <trans-unit id="3615338218870619148" datatype="html">
         <source>Courses</source>
         <target>קורסים</target>
         <context-group purpose="location">
@@ -22,7 +110,7 @@
         <note priority="1" from="description">Header navigation link</note>
         <note priority="1" from="meaning">Courses link</note>
       </trans-unit>
-      <trans-unit id="6702751917573834876" datatype="html">
+      <trans-unit id="6790619625367579249" datatype="html">
         <source>Documentation</source>
         <target>תיעוד</target>
         <context-group purpose="location">
@@ -32,7 +120,7 @@
         <note priority="1" from="description">Header navigation link</note>
         <note priority="1" from="meaning">Documentation link</note>
       </trans-unit>
-      <trans-unit id="1639003978858729602" datatype="html">
+      <trans-unit id="6527466361033038373" datatype="html">
         <source>More moodle themes</source>
         <target>ערכות נושא נוספות במודל</target>
         <context-group purpose="location">
@@ -42,7 +130,7 @@
         <note priority="1" from="description">Header navigation link</note>
         <note priority="1" from="meaning">More moodle themes</note>
       </trans-unit>
-      <trans-unit id="1694899606212039483" datatype="html">
+      <trans-unit id="1223046118058715030" datatype="html">
         <source>Get this theme</source>
         <target>קבל את הנושא הזה</target>
         <context-group purpose="location">
@@ -52,7 +140,7 @@
         <note priority="1" from="description">Header navigation link</note>
         <note priority="1" from="meaning">Get this theme</note>
       </trans-unit>
-      <trans-unit id="2811966189804426187" datatype="html">
+      <trans-unit id="4705115263616216939" datatype="html">
         <source>Log in</source>
         <target>התחברות</target>
         <context-group purpose="location">

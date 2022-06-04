@@ -1,0 +1,16 @@
+<div class="topics">
+    <div class="topics_header">
+      <h2 class="topics_title" i18n="Featured categories title|List of courses which user can learn"><span>Featured</span> topics by category</h2>
+      <p class="topics_text" i18n="Categories description|Describes what user can achive if he learned one of course">It prepares them to thrive in today’s world — and to shape tomorrow’s. Apple is constantly creating resources to help educators do just that. Not only powerful products, but also tools, inspiration, and curricula to create magical learning experiences and make every moment of screen time worth it.</p>
+    </div>
+<!--  <app-content-container>-->
+<!--  </app-content-container>-->
+  <div class="topics_list">
+    <div class="card" *ngFor="let topic of topic">
+      <img class="card_img" src="{{topic.img}}" alt="{{topic.title}}">
+      <h4 class="card_title">{{topic.title}}</h4>
+      <span class="card_quantity" i18n="Coursers quantity|Quantity of sertain courses category">{{topic.quantity}} courses</span>
+    </div>
+  </div>
+  <app-divider></app-divider>
+</div>

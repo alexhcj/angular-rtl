@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" target-language="he" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="5749270743673576331" datatype="html">
+        <source>All courses</source>
+        <target>כל הקורסים</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/common/header/header.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <note priority="1" from="description">Header navigation link</note>
+        <note priority="1" from="meaning">All courses link</note>
+      </trans-unit>
+      <trans-unit id="2161883949958595597" datatype="html">
+        <source>Courses</source>
+        <target>קורסים</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/common/header/header.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <note priority="1" from="description">Header navigation link</note>
+        <note priority="1" from="meaning">Courses link</note>
+      </trans-unit>
+      <trans-unit id="6702751917573834876" datatype="html">
+        <source>Documentation</source>
+        <target>תיעוד</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/common/header/header.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+        <note priority="1" from="description">Header navigation link</note>
+        <note priority="1" from="meaning">Documentation link</note>
+      </trans-unit>
+      <trans-unit id="1639003978858729602" datatype="html">
+        <source>More moodle themes</source>
+        <target>ערכות נושא נוספות במודל</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/common/header/header.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+        <note priority="1" from="description">Header navigation link</note>
+        <note priority="1" from="meaning">More moodle themes</note>
+      </trans-unit>
+      <trans-unit id="1694899606212039483" datatype="html">
+        <source>Get this theme</source>
+        <target>קבל את הנושא הזה</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/common/header/header.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <note priority="1" from="description">Header navigation link</note>
+        <note priority="1" from="meaning">Get this theme</note>
+      </trans-unit>
+      <trans-unit id="2811966189804426187" datatype="html">
+        <source>Log in</source>
+        <target>התחברות</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/common/header/header.component.html</context>
+          <context context-type="linenumber">40,46</context>
+        </context-group>
+        <note priority="1" from="description">Allows user to login in application</note>
+        <note priority="1" from="meaning">Login button text</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

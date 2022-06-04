@@ -16,11 +16,17 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "he": "src/locale/messages.he.xlf"
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-rtl-switch",
+            "outputPath": "dist/",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -36,6 +42,9 @@
             "scripts": []
           },
           "configurations": {
+            "he": {
+              "localize": ["he-IL"]
+            },
             "production": {
               "budgets": [
                 {
@@ -73,6 +82,9 @@
           "configurations": {
             "production": {
               "browserTarget": "angular-rtl-switch:build:production"
+            },
+            "he": {
+              "browserTarget": "angular-rtl-switch:build:he"
             },
             "development": {
               "browserTarget": "angular-rtl-switch:build:development"

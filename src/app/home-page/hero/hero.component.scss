@@ -1,0 +1,50 @@
+@import '../../shared/styles/vars';
+
+.hero {
+  position: relative;
+  margin-bottom: 80px;
+  padding: 20px 30px 30px;
+  background-color: $color-white;
+
+  &_content {
+    position: absolute;
+    top: 50%;
+    left: 150px;
+    max-width: 500px;
+    padding: 45px 60px;
+    background-color: $color-blur;
+    backdrop-filter: blur(6px);
+    border-radius: 5px;
+    transform: translateY(-50%);
+  }
+
+  &_title {
+    margin-bottom: 20px;
+    max-width: 380px;
+    line-height: 1.2;
+    font-size: 56px;
+    font-weight: $weight-700;
+    color: $color-white;
+  }
+
+  &_text {
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: $color-white;
+  }
+
+  &_btn {
+    display: flex;
+    padding: 16px 28px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: $color-primary;
+    color: $color-white2;
+    font-weight: $weight-500;
+
+    &:hover {
+      background-color: $color-primary2;
+    }
+  }
+}

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="7713860644916737983" datatype="html">
+        <source>Getting Started with Moodle</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/hero/hero.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">Primary slogan message of company</note>
+        <note priority="1" from="meaning">Hero title</note>
+      </trans-unit>
+      <trans-unit id="5843588263354228219" datatype="html">
+        <source>From its medieval origins to the digital era, learn everything there is to know about the ubiquitous lorem ipsum passage.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/hero/hero.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">Primary short meta description of company</note>
+        <note priority="1" from="meaning">Hero text</note>
+      </trans-unit>
+      <trans-unit id="8027139425833124653" datatype="html">
+        <source>Sign up</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/hero/hero.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <note priority="1" from="description">Redirect user to registration page</note>
+        <note priority="1" from="meaning">Sign up button</note>
+      </trans-unit>
+      <trans-unit id="8093989639772668109" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Featured<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> topics by category</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/topics/topics.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">List of courses which user can learn</note>
+        <note priority="1" from="meaning">Featured categories title</note>
+      </trans-unit>
+      <trans-unit id="1297598504076835535" datatype="html">
+        <source>It prepares them to thrive in today’s world — and to shape tomorrow’s. Apple is constantly creating resources to help educators do just that. Not only powerful products, but also tools, inspiration, and curricula to create magical learning experiences and make every moment of screen time worth it.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/topics/topics.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">Describes what user can achive if he learned one of course</note>
+        <note priority="1" from="meaning">Categories description</note>
+      </trans-unit>
+      <trans-unit id="4802342939513930528" datatype="html">
+        <source>Art History</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/topics/topics.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description">Art category course</note>
+        <note priority="1" from="meaning">Courses category</note>
+      </trans-unit>
+      <trans-unit id="8291506914238155784" datatype="html">
+        <source>UI &amp; UX</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/topics/topics.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <note priority="1" from="description">UI &amp; UX category course</note>
+        <note priority="1" from="meaning">Courses category</note>
+      </trans-unit>
+      <trans-unit id="4802850198241204153" datatype="html">
+        <source>All courses</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/common/header/header.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <note priority="1" from="description">Header navigation link</note>
+        <note priority="1" from="meaning">All courses link</note>
+      </trans-unit>
+      <trans-unit id="3615338218870619148" datatype="html">
+        <source>Courses</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/common/header/header.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <note priority="1" from="description">Header navigation link</note>
+        <note priority="1" from="meaning">Courses link</note>
+      </trans-unit>
+      <trans-unit id="6790619625367579249" datatype="html">
+        <source>Documentation</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/common/header/header.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+        <note priority="1" from="description">Header navigation link</note>
+        <note priority="1" from="meaning">Documentation link</note>
+      </trans-unit>
+      <trans-unit id="6527466361033038373" datatype="html">
+        <source>More moodle themes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/common/header/header.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+        <note priority="1" from="description">Header navigation link</note>
+        <note priority="1" from="meaning">More moodle themes</note>
+      </trans-unit>
+      <trans-unit id="1223046118058715030" datatype="html">
+        <source>Get this theme</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/common/header/header.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <note priority="1" from="description">Header navigation link</note>
+        <note priority="1" from="meaning">Get this theme</note>
+      </trans-unit>
+      <trans-unit id="4705115263616216939" datatype="html">
+        <source>Log in</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/common/header/header.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+        <note priority="1" from="description">Allows user to login in application</note>
+        <note priority="1" from="meaning">Login button text</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

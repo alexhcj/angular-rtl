@@ -21,7 +21,7 @@
         "locales": {
           "he": {
             "translation": "src/locale/messages.he.xlf",
-            "baseHref": "he"
+            "baseHref": ""
           }
         }
       },
@@ -86,11 +86,11 @@
             "production": {
               "browserTarget": "angular-rtl-switch:build:production"
             },
-            "he": {
-              "browserTarget": "angular-rtl-switch:build:he"
-            },
             "development": {
               "browserTarget": "angular-rtl-switch:build:development"
+            },
+            "he": {
+              "browserTarget": "angular-rtl-switch:build:he"
             }
           },
           "defaultConfiguration": "development"

@@ -19,6 +19,7 @@
       "i18n": {
         "sourceLocale": "en-US",
         "locales": {
+          "en": "src/locale/messages.xlf",
           "he": "src/locale/messages.he.xlf"
         }
       },
@@ -42,6 +43,9 @@
             "scripts": []
           },
           "configurations": {
+            "en": {
+              "localize": ["en-US"]
+            },
             "he": {
               "localize": ["he"]
             },

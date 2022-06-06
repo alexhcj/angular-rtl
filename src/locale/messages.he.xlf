@@ -82,6 +82,56 @@
         <note priority="1" from="description">UI &amp; UX category course</note>
         <note priority="1" from="meaning">Courses category</note>
       </trans-unit>
+      <trans-unit id="394071256272892729" datatype="html">
+        <source>3D Design</source>
+        <target>עיצוב תלת מימד</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/topics/topics.component.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <note priority="1" from="description">3D Design category course</note>
+        <note priority="1" from="meaning">Courses category</note>
+      </trans-unit>
+      <trans-unit id="1103705782911742864" datatype="html">
+        <source>Media &amp; PR</source>
+        <target>מדיה ויחסי ציבור</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/topics/topics.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <note priority="1" from="description">Media &amp; PR category course</note>
+        <note priority="1" from="meaning">Courses category</note>
+      </trans-unit>
+      <trans-unit id="6009647865953358056" datatype="html">
+        <source>Programming</source>
+        <target>תִכנוּת</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/topics/topics.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <note priority="1" from="description">Programming category course</note>
+        <note priority="1" from="meaning">Courses category</note>
+      </trans-unit>
+      <trans-unit id="900834483998777160" datatype="html">
+        <source>Music</source>
+        <target>מוּסִיקָה</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/topics/topics.component.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <note priority="1" from="description">Music category course</note>
+        <note priority="1" from="meaning">Courses category</note>
+      </trans-unit>
+      <trans-unit id="2758085355421464437" datatype="html">
+        <source>Language courses</source>
+        <target>קורסי שפה</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/topics/topics.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <note priority="1" from="description">Language courses category course</note>
+        <note priority="1" from="meaning">Courses category</note>
+      </trans-unit>
       <trans-unit id="392942015236586892" datatype="html">
         <source>Angular logo</source>
         <target>לוגו זוויתי</target>

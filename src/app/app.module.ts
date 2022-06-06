@@ -11,6 +11,7 @@ import { HeroComponent } from './home-page/hero/hero.component';
 import { TopicsComponent } from './home-page/topics/topics.component';
 import { NotFoundComponent } from './shared/common/not-found/not-found.component';
 import { DividerComponent } from './shared/common/divider/divider.component';
+import {PersistenceService} from "./shared/services/persistence.service";
 import {ContentContainerComponent} from "./shared/common/layouts/content-container/content-container.component";
 
 @NgModule({

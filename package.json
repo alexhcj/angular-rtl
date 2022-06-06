@@ -4,6 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start:he": "ng serve --configuration=he",
     "start:prod": "ng serve dist/angular-rtl-switch",
     "build": "ng build",
     "build:github-pages": "ng build --output-path docs --localize --base-href /angular-rtl/\n",

@@ -46,7 +46,7 @@
           },
           "configurations": {
             "he": {
-              "localize": ["he-IL"]
+              "localize": ["he"]
             },
             "production": {
               "budgets": [
